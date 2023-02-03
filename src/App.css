@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.main-cont {
+  margin: 50px auto;
+  padding: 1px;
+  max-width: 1200px;
+  background-color: aliceblue;
+}
+
+span {
+  font-weight: 600;
+}
+
+.sub-cont {
+  margin: 20px;
+  padding: 50px 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.sub-cont div {
+  margin-top: 8px;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+}
+
+.more-details {
+  padding: 0px 80px;
+  max-width: 1000px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.more-details.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.columns {
+  display: flex;
+}
+
+.columns div {
+  padding-right: 50px;
+}
